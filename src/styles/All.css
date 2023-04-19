@@ -1,0 +1,105 @@
+:root{
+    --font-family:"",
+    --bg-color:"#79c4f7d2",
+    --text-color:"red"
+}
+#hero_typing{
+     
+}
+#port_navbar{
+    background: linear-gradient(#000000d2,grey);
+}
+
+
+.hero_section{
+    /* background-color: #ffbb00; */
+    background-color: #79c4f7d2;
+    /* background-color: #2dcce0; */
+}
+
+#hero_img{
+    border-radius: 50%;
+   filter: saturate(89%);
+    animation: hero_murali 2s infinite linear;
+
+    position: relative;
+    object-fit: cover;
+    
+   
+}
+
+@keyframes hero_murali {
+    0%{
+      right: 0px;
+    }
+    50%{
+      right: 10px;
+     }
+     100%{
+       right: 0px;
+     }
+    
+}
+#navbarTogglerDemo01 a{
+    color: white!important;
+    font-size: 1.4rem;
+    font-family: "Comic Sans MS";
+    font-weight: 700;
+
+   
+}
+#port_name_name{
+    color: orange;
+    font-size: 1.4rem;
+    font-weight: 700;
+    animation: port_name 3s linear;
+    position: relative;
+    font-family: "Brush Script MT";
+}
+@keyframes port_name {
+    0%{
+       left: 0%;
+    }
+    50%{
+        left: -100%;
+     }
+     100%{
+        left: 0%;
+     }
+}
+.navbar-toggler{
+    border: none;
+}
+#under_anime{
+    background: black;
+
+    height: 5px;
+    width: 100px;
+    animation: under_line 1s  linear;
+}
+@keyframes under_line {
+    0%{
+        width: 10px;
+        height: 5px;
+    }
+    50%{
+        width: 50px;
+        height:1px;
+        
+    }
+    100%{
+        width: 100px;
+    }
+}
+#sections_heading{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "MS Gothic";
+}
+#skills_things{
+    background: orange;
+    color: #eff3f1;
+    font-family: "Comic Sans MS";
+    font-size: 2rem;
+
+}
