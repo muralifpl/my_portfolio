@@ -17,7 +17,13 @@ function Nav() {
           <a class="nav-link active" aria-current="page" href="#skills_section">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#project_section">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">More</a>
         </li>
       </ul>
       

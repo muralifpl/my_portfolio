@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import Nav from './NavBar'
 import Hero from './HeroPage'
 import Skills from './Skills'
+import Projects from './Projects'
 function App() {
 
 const [dev,setDev]=useState(0);
@@ -22,8 +23,11 @@ setDev(check);
    <div>
    <Hero />
    </div>
-   <div className='py-5'>
+   <div className=''>
    <Skills />
+   </div>
+   <div className=''>
+<Projects />
    </div>
   </>
   :

@@ -12,9 +12,9 @@ function Hero() {
 <TypeAnimation
 className=""
 id="hero_typing"
-  style={{fontSize:"2rem", whiteSpace: 'pre-line', display: 'block',color:"black" ,fontFamily:"MV Boli",fontWeight:"700"}}
+  style={{fontSize:"1.3rem", whiteSpace: 'pre-line', display: 'block',color:"black" ,fontFamily:"MV Boli",fontWeight:"700"}}
   sequence={[
-    `Hi I'm Murali Front-end developer with 1+ experience`, 
+    `As a frontend developer with more than 1+ year of experience in ReactJS, I have a strong foundation in HTML, CSS, and JavaScript, as well as a deep understanding of JSX syntax, components, state and props, lifecycle methods, and Redux.`, 
     2000,
     '',
   ]}
@@ -24,6 +24,10 @@ id="hero_typing"
 <div className="col-12 col-md-6">
     <div className=''>
     <img src={hero_img} id="hero_img" className='mx-auto d-block' width="50%" height="50%" alt="" ></img>
+    </div>
+   
+    <div id='back_curve_hero'>
+
     </div>
 </div>
 </div>
