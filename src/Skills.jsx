@@ -42,6 +42,8 @@ function Skills() {
 <h3>Bootstrap</h3>
 <h3>Mysql</h3>
 <h3>Tailwind Css</h3>  
+<h3>Git</h3>  
+
 </div>
 </div>
 </div>
