@@ -17,7 +17,7 @@ function Projects() {
         <div className="container-fluid">
         <div className=''style={{fontSize:"1.5rem"}} >
           <b>Work Experience :</b> Xcel Corp ,Chennai, TN
-          &nbsp; <b className='float-end'>mar 2022 - apr 2023</b>
+          &nbsp; <b className=''>mar 2022 - apr 2023</b>
           </div>
        <div className="row mt-4">
    
@@ -45,7 +45,7 @@ www.portal.guidejuniors.com
 
 
 </div>
-<div className="col" style={{fontSize:"1.2rem"}}>
+<div className="col py-3 py-md-0" style={{fontSize:"1.2rem"}}>
 <span style={{fontWeight:"bolder",fontSize:"2rem"}}>Cricdost Website and WebApp</span>
 <div className='py-1'>
 <b>Description</b>: Most Trusted platform for organizing everything in cricket. Our mission is to give organizers, academies, players and others the ease of technology enhance the game, achieve higher visibility and organize the unorganized sector<div>
