@@ -17,7 +17,7 @@ function Contact (){
     Mobile : <a href="tel:+916369173970">+91 6369173970</a>
  </div>
  <div style={{fontSize:"1.5rem"}} className='mt-2'>
-    Mobile : <a href="mailto:muraliragu99@gmail.com">muraliragu99@gmail.com</a>
+    Email : <a href="mailto:muraliragu99@gmail.com">muraliragu99@gmail.com</a>
  </div>
  <div style={{fontSize:"1.5rem"}} className='mt-2'>
     LinkedIn : <a href=" https://in.linkedin.com/in/murali-ragupathy-179224253
