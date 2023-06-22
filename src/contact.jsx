@@ -20,8 +20,12 @@ function Contact (){
     Email : <a href="mailto:muraliragu99@gmail.com">muraliragu99@gmail.com</a>
  </div>
  <div style={{fontSize:"1.5rem"}} className='mt-2'>
-    LinkedIn : <a href=" https://in.linkedin.com/in/murali-ragupathy-179224253
+    LinkedIn : <a href="https://in.linkedin.com/in/murali-ragupathy-179224253
 ">Murali Ragupathy</a>
+ </div>
+ <div style={{fontSize:"1.5rem"}} className='mt-2'>
+    Github : <a href="https://github.com/muralifpl/
+">Muralifpl</a>
  </div>
 </div>
 
