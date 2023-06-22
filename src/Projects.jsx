@@ -7,14 +7,19 @@ function Projects() {
    <div id="project_section">
         <div className="container-fluid" >
             <div id="sections_heading">
-           mAjOr pRoJeCtS
+           mAjOr pRoJeCtS AND ExPeRiEnCe
             </div>
            {/* <div id="under_anime">
            </div> */}
         </div>
         <div className="my-5 p-5" id="project_things">
+         
         <div className="container-fluid">
-       <div className="row">
+        <div className=''style={{fontSize:"1.5rem"}} >
+          <b>Work Experience :</b> Xcel Corp ,Chennai, TN
+          &nbsp; <b className='float-end'>mar 2022 - apr 2023</b>
+          </div>
+       <div className="row mt-4">
    
 <div className="col" style={{fontSize:"1.2rem"}}>
 <span style={{fontWeight:"bolder",fontSize:"2rem"}}>Guide Juniors Website and WebApp</span>
