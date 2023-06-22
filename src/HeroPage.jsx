@@ -14,7 +14,7 @@ className=""
 id="hero_typing"
   style={{fontSize:"1.4rem", whiteSpace: 'pre-line', display: 'block',color:"black" ,fontFamily:"MV Boli",fontWeight:"700"}}
   sequence={[
-    `As a frontend developer with more than 1+ year of experience in ReactJS, I have a strong foundation in HTML, CSS, and JavaScript, as well as a deep understanding of JSX syntax, components, state and props, lifecycle methods, and Redux.`, 
+    `Front end developer with 1 year 2 months experience building websites ,web app, CRM using React js and html,css, javascript, bootstrap, material ui, git etc. Key achievement : Creating 5+ websites, 3+ web apps with responsive UI all devices and backend developers to execute new fetaures and create API endpoint’s req/res payloads.`, 
     2000,
     '',
   ]}

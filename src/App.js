@@ -4,6 +4,7 @@ import Nav from './NavBar'
 import Hero from './HeroPage'
 import Skills from './Skills'
 import Projects from './Projects'
+import Contact from './contact'
 function App() {
 
 const [dev,setDev]=useState(0);
@@ -26,6 +27,9 @@ setDev(check);
    <Skills /></div>
    <div className=''>
     <Projects /> 
+   </div>
+   <div className=''>
+    <Contact /> 
    </div>
   </>
 
