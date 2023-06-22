@@ -73,7 +73,7 @@ a{
    
 }
 #port_name_name{
-    color: red;
+    color: rgb(255, 187, 0);
     font-size: 2rem;
     font-weight: 900;
     animation: port_name 2s linear;

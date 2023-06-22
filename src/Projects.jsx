@@ -34,7 +34,7 @@ function Projects() {
 <b>Links</b>: <a href="https://www.guidejuniors.com">www.guidejuniors.com</a>
 &nbsp;
 and &nbsp;
-<a href="https://www.portal.guidejuniors.com">
+<a href="https://portal.guidejuniors.com">
 www.portal.guidejuniors.com
   </a>
 </div>
@@ -57,7 +57,7 @@ www.portal.guidejuniors.com
 <b>Links</b>: <a href="https://www.cricdost.com">www.cricdost.com</a>
 &nbsp;
 and &nbsp;
-<a href="https://www.admin.cricdost.com">
+<a href="https://admin.cricdost.com">
 www.admin.cricdost.com
   </a>
 
