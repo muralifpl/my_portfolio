@@ -12,7 +12,7 @@ const [dev,setDev]=useState(0);
 
     setInterval(() => {
       setDev(1);
-    }, 4000);
+    }, 2500);
 
 
 return (
