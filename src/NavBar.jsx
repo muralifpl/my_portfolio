@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import menu_gif from './images/git_menu.gif'
 import { AiOutlineMenuUnfold,AiOutlineMenuFold } from "react-icons/ai";
 function Nav() {
 
@@ -20,7 +19,6 @@ const handleMenu=(check)=>{
  menu===0?
  <div  onClick={()=>{handleMenu(1)}}>
  <AiOutlineMenuUnfold />
-
  </div>
  :
  <div  onClick={()=>{handleMenu(0)}}>
@@ -35,8 +33,8 @@ const handleMenu=(check)=>{
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <ul class="navbar-nav me-2 mb-2 gap-2 mb-lg-0">
-      <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+      <li class="nav-item" >
+          <a  class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#skills_section">Skills</a>

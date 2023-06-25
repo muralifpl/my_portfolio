@@ -5,7 +5,7 @@ function Contact (){
      <div className="container">
         <div className="row">
 <div className="col">
-<img src={contact} className="mx-auto d-block" width={350}/>
+<img src={contact} className="mx-auto mt-5 d-block" width={350}/>
     </div>
     <div className="col p-4">
 <div className='text-center mt-5'>

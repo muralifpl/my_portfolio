@@ -31,10 +31,11 @@ function Skills() {
 <div className="col d-flex justify-content-evenly my-5">
     <div className="me-5">
 <h3>React Js</h3>
-<h3>Html</h3>
-<h3>Css</h3>
+<h3>Html 5</h3>
+<h3>Css 3</h3>
 <h3>JavaScript</h3>
 <h3>Node JS</h3>  
+<h3>Core java</h3>  
 
 </div>
 <div>

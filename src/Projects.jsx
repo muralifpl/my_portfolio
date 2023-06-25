@@ -31,10 +31,10 @@ function Projects() {
 <div>
 <b>Role</b>: Create user interface, responsive all devices and integrated with backend API User req/res.
 <div>
-<b>Links</b>: <a href="https://www.guidejuniors.com">www.guidejuniors.com</a>
+<b>Links</b>: <a style={{color:"white"}} href="https://www.guidejuniors.com">www.guidejuniors.com</a>
 &nbsp;
 and &nbsp;
-<a href="https://portal.guidejuniors.com">
+<a style={{color:"white"}} href="https://portal.guidejuniors.com">
 www.portal.guidejuniors.com
   </a>
 </div>
@@ -54,10 +54,10 @@ www.portal.guidejuniors.com
 <div>
 <b>Role</b>: Create user interface, responsive all devices. Integrated with backend API User req/res and fixing major issues with API fetch.
 <div>
-<b>Links</b>: <a href="https://www.cricdost.com">www.cricdost.com</a>
+<b>Links</b>: <a style={{color:"white"}} href="https://www.cricdost.com">www.cricdost.com</a>
 &nbsp;
 and &nbsp;
-<a href="https://admin.cricdost.com">
+<a style={{color:"white"}} href="https://admin.cricdost.com">
 www.admin.cricdost.com
   </a>
 
@@ -70,11 +70,41 @@ www.admin.cricdost.com
 
 </div>
 </div>
+<hr />
+<div className='row mt-4'>
+  <div className='col'>
+  <b>Other Projects</b>
+
+  
+  <div style={{fontSize:"20px"}} className='mt-2'>
+  <div>
+  Nyinst : <a href="https://www.nyinst.com">www.nyinst.com</a>
+  </div>
+  <div>
+  Intelschool : <a href="https://www.intelschool.in">www.intelschool.in</a>
+  </div>
+  <div>
+  Intelschool Web App : <a href="https://portal.intelschool.in">www.portal.intelschool.in</a>
+  </div>
+  <div>
+  WTCF : <a href="https://www.wtcf.cricket">www.wtcf.cricket</a>
+  </div>
+  <div>
+  Munnex : <a href="https://www.munnex.com">www.munnex.com</a>
+  </div>
+  </div>
+  </div>
+  <div className='col py-3 py-md-0'>
+   <b>My personal projects</b> 
+<div style={{fontSize:"20px"}} className='mt-2'>
+  Portal System : <a href="https://github.com/muralifpl/portal_system/">Portal System</a>
+</div>
+  </div>
+</div>
        </div>
         </div>
     </div>
     </> );
 }
 
-export default Projects
-;
+export default Projects;

@@ -1,5 +1,5 @@
-import './App.css'
-import React, { useState } from 'react'
+import './styles/App.css'
+import React, { useEffect, useState } from 'react'
 import Nav from './NavBar'
 import Hero from './HeroPage'
 import Skills from './Skills'
@@ -9,13 +9,27 @@ function App() {
 
 const [dev,setDev]=useState(0);
 
-const handleClick=(check)=>{
-setDev(check);
-}
 
-  return (
+    setInterval(() => {
+      setDev(1);
+    }, 4000);
 
-  <>    
+
+return (
+
+<> 
+   {
+    dev===0?<>
+    <div className='quotes'>
+    <div className='text-center py-5 quotes_text'>
+   <div> The only thing necessary for the triumph of evil is for good men to do nothing
+   </div>
+   <span className='float-end'>- Edmund Burke</span>
+    </div>
+    
+    </div>
+    </>:
+   
 <>
   
   <Nav />
@@ -32,7 +46,7 @@ setDev(check);
     <Contact /> 
    </div>
   </>
-
+}
    </>
   )
 }

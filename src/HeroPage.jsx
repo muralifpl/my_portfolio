@@ -23,7 +23,7 @@ id="hero_typing"
 </div>
 <div className="col-12 col-md-6">
     <div className=''>
-    <img src={hero_img} id="hero_img" className='mx-auto d-block' width="50%" height="50%" alt="" ></img>
+    <img src={hero_img} id="hero_img" className='mx-auto d-block' width={280} alt="" ></img>
     </div>
    
     <div id='back_curve_hero'>  
