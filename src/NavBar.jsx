@@ -1,11 +1,18 @@
 import { useState } from 'react';
 import { AiOutlineMenuUnfold,AiOutlineMenuFold } from "react-icons/ai";
+import myResume from '../src/files/Murali_resume01.PDF'
 function Nav() {
 
 const[menu,setMenu]=useState(0);
 
 const handleMenu=(check)=>{
   setMenu(check);
+}
+const handleResume =()=>{
+  const link = document.createElement('a');
+  link.href = myResume;
+  link.download ="Murali_Resume";
+  link.click();
 }
 
 
@@ -45,10 +52,20 @@ const handleMenu=(check)=>{
         <li class="nav-item">
           <a class="nav-link" href="#contact_us">Contact Us</a>
         </li>
+<li className='mx-0 mx-lg-4 mt-1'>
+
+<button className=''
+ style={{fontSize:"22px",border:"none",background:"red",color:"white"}}  
+ onClick={handleResume} type="button" class="btn"><b>Download Resume</b></button>
+
+</li>
+
       </ul>
+
       
     </div>
-    <div className="d-flex justify-content-end">
+
+    <div className="d-flex justify-content-button gap-5">
       <div id="port_name_name" className="me-2">PORTFOLIO</div>
       </div>
   </div>

@@ -27,6 +27,9 @@ function Contact (){
     Github : <a href="https://github.com/muralifpl/
 ">Muralifpl</a>
  </div>
+ <div className='my-4'>
+
+ </div>
 </div>
 
     </div>
