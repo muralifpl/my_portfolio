@@ -1,22 +1,40 @@
 import { useState } from 'react';
-import { AiOutlineMenuUnfold,AiOutlineMenuFold } from "react-icons/ai";
-import myResume from '../src/files/Murali_resume01.PDF'
+import { AiOutlineMenuUnfold,AiFillCaretUp } from "react-icons/ai";
+import myResume from '../src/files/Murali_resume01.PDF';
+import downAudio from '../src/files/click.mp3'
+import menuAudio from '../src/files/menu_click.mp3'
+import menuToggle from '../src/files/toggle_click.mp3'
 function Nav() {
+
+
 
 const[menu,setMenu]=useState(0);
 
 const handleMenu=(check)=>{
   setMenu(check);
+  let audio = new Audio(menuToggle)
+  audio.play()
 }
+
+const handleMenuAudio = ()=>{
+  let audio = new Audio(menuAudio)
+  audio.play()
+}
+
 const handleResume =()=>{
   const link = document.createElement('a');
   link.href = myResume;
   link.download ="Murali_Resume";
   link.click();
+
+  let audio = new Audio(downAudio)
+  audio.play()
+
 }
 
 
-    return ( 
+
+return ( 
     <div className="p-4">
 <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="port_navbar">
   <div class="container-fluid">
@@ -30,7 +48,7 @@ const handleResume =()=>{
  :
  <div  onClick={()=>{handleMenu(0)}}>
 
-<AiOutlineMenuFold />
+<AiFillCaretUp />
 
  </div>
 
@@ -39,17 +57,17 @@ const handleResume =()=>{
       </span>
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-      <ul class="navbar-nav me-2 mb-2 gap-2 mb-lg-0">
-      <li class="nav-item" >
+      <ul class="navbar-nav me-2 mb-2 gap-2 mb-lg-0" >
+      <li class="nav-item" onClick={handleMenuAudio} >
           <a  class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" onClick={handleMenuAudio}>
           <a class="nav-link active" aria-current="page" href="#skills_section">Skills</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" onClick={handleMenuAudio}>
           <a class="nav-link" href="#project_section">Projects</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" onClick={handleMenuAudio}>
           <a class="nav-link" href="#contact_us">Contact Us</a>
         </li>
 <li className='mx-0 mx-lg-4 mt-1'>
@@ -57,8 +75,8 @@ const handleResume =()=>{
 <button className=''
  style={{fontSize:"22px",border:"none",background:"red",color:"white"}}  
  onClick={handleResume} type="button" class="btn"><b>Download Resume</b></button>
-
 </li>
+
 
       </ul>
 

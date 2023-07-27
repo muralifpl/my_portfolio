@@ -4,7 +4,7 @@ import Nav from './NavBar'
 import Hero from './HeroPage'
 import Skills from './Skills'
 import Projects from './Projects'
-import Contact from './contact'
+import Contact from './Contact'
 function App() {
 
 const [dev,setDev]=useState(0);
