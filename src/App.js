@@ -17,7 +17,7 @@ const [dev,setDev]=useState(0);
 
 return (
 
-<> 
+<div id="cursor"> 
    {
     dev===0?<>
     <div className='quotes'>
@@ -47,7 +47,7 @@ return (
    </div>
   </>
 }
-   </>
+   </div>
   )
 }
 export default App;

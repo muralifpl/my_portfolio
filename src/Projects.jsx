@@ -78,26 +78,26 @@ www.admin.cricdost.com
   
   <div style={{fontSize:"20px"}} className='mt-2'>
   <div>
-  Nyinst : <a href="https://www.nyinst.com">www.nyinst.com</a>
+  Nyinst : <a style={{color:"white"}} href="https://www.nyinst.com">www.nyinst.com</a>
   </div>
   <div>
-  Intelschool : <a href="https://www.intelschool.in">www.intelschool.in</a>
+  Intelschool : <a style={{color:"white"}} href="https://www.intelschool.in">www.intelschool.in</a>
   </div>
   <div>
-  Intelschool Web App : <a href="https://portal.intelschool.in">www.portal.intelschool.in</a>
+  Intelschool Web App : <a style={{color:"white"}} href="https://portal.intelschool.in">www.portal.intelschool.in</a>
   </div>
   <div>
-  WTCF : <a href="https://www.wtcf.cricket">www.wtcf.cricket</a>
+  WTCF : <a style={{color:"white"}} href="https://www.wtcf.cricket">www.wtcf.cricket</a>
   </div>
   <div>
-  Munnex : <a href="https://www.munnex.com">www.munnex.com</a>
+  Munnex : <a style={{color:"white"}} href="https://www.munnex.com">www.munnex.com</a>
   </div>
   </div>
   </div>
   <div className='col py-3 py-md-0'>
    <b>My personal projects</b> 
 <div style={{fontSize:"20px"}} className='mt-2'>
-  Portal System : <a href="https://github.com/muralifpl/portal_system/">Portal System</a>
+  Portal System : <a style={{color:"white"}} href="https://github.com/muralifpl/portal_system/">Portal System</a>
 </div>
   </div>
 </div>

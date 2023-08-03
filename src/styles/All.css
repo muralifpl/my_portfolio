@@ -18,7 +18,7 @@ a{
 .hero_section{
     /* background-color: #ffbb00; */
    
-    background:  #21ee05;
+    background-image: linear-gradient(to bottom right, #21ee05, rgb(54, 51, 51));
     /* background-color: #2dcce0; */
 }
 
@@ -166,7 +166,8 @@ a{
 
 }
 #project_things{
-    background:  #21ee05;
+    background-image: linear-gradient(to bottom right, rgb(83, 82, 82), #2bf511);
+
     color:black;
     font-family: "Comic Sans MS";
     font-size: 2rem;
