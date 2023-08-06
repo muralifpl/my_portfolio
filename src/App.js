@@ -12,7 +12,7 @@ const [dev,setDev]=useState(0);
 
     setInterval(() => {
       setDev(1);
-    }, 2500);
+    }, 1500);
 
 
 return (
@@ -22,9 +22,10 @@ return (
     dev===0?<>
     <div className='quotes'>
     <div className='text-center py-5 quotes_text'>
-   <div> The only thing necessary for the triumph of evil is for good men to do nothing
-   </div>
-   <span className='float-end'>- Edmund Burke</span>
+    <div className="spinner-border" style={{ role:"status"}}>
+  <span className="visually-hidden"></span>
+</div>
+  
     </div>
     
     </div>

@@ -1,6 +1,24 @@
 import { TypeAnimation } from "react-type-animation";
-import mario from './images/skills_1.png'
+import sk from './images/sk.png'
 import { useEffect } from "react";
+import css from './images/css.png'
+import mysql from './images/mysql.png'
+import html from './images/html.png'
+import boot from './images/boot.png'
+import material from './images/material.png'
+
+import react from './images/react.png'
+import js from './images/js.png'
+import git from './images/git.png'
+import node from './images/node.png'
+import tailwind from './images/tailwind.png'
+import java from './images/java.png'
+
+
+
+
+
+
 function Skills() {
 
 
@@ -17,33 +35,43 @@ function Skills() {
            </div> */}
         </div>
         <div className="my-5 p-5" id="skills_things">
-        <div className="container-fluid">
+        <div className="container-fluid p-0">
        <div className="row">
-    <div className="col">
+    <div className="col col-md-4 d-none d-md-block">
   
 
-    <img style={{borderRadius:"50%"}} id="skills_img" className="mx-auto d-block" src={mario} alt=""/>
-<div id="back_curve_skills">
+    <img width={330} id="skills_img" className="mx-auto d-block" src={sk} alt=""/>
 
 </div>
-
-</div>
-<div className="col d-flex justify-content-evenly my-5">
-    <div className="me-5">
-<h3>React Js</h3>
-<h3>Html 5</h3>
-<h3>Css 3</h3>
-<h3>JavaScript</h3>
-<h3>Node JS</h3>  
-<h3>Core java</h3>  
-
-</div>
+<div className="col col-md-8 d-flex justify-content-evenly my-5">
 <div>
-<h3>Material UI</h3>
-<h3>Bootstrap</h3>
-<h3>Mysql</h3>
-<h3>Tailwind Css</h3>  
-<h3>Git</h3>  
+<marquee direction="right">
+<img src={html} width={150}/>
+<img src={css} width={120}/>
+<img src={mysql} width={150}/>
+<img src={java} width={150}/>
+
+<img src={react} width={150}/>
+<img src={js} width={150}/>
+
+
+   
+   </marquee>
+
+   <marquee direction="left">
+   
+    <img src={boot} width={150}/>
+    <img src={material} width={150}/>
+    <img src={node} width={150}/>
+    <img src={git} width={150}/>
+    <img src={tailwind} width={150}/>
+
+
+
+
+   
+    </marquee>
+
 
 </div>
 </div>
