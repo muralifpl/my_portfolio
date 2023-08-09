@@ -34,7 +34,7 @@ function Skills() {
            {/* <div id="under_anime">
            </div> */}
         </div>
-        <div className="my-5 p-5" id="skills_things">
+        <div className="my-5 p-4" id="skills_things">
         <div className="container-fluid p-0">
        <div className="row">
     <div className="col col-md-4 d-none d-md-block">

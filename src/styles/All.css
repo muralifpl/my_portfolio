@@ -33,6 +33,24 @@ a{
     filter: drop-shadow(25px 10px 4px #0a0a0a);
    
 }
+.card{
+  justify-content: space-between;
+  padding: 35px;
+  border: 1px solid rgba(233, 228, 228, 0.25);
+  border-radius: 20px;
+  background-color: rgba(223, 218, 218, 0.45);
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.25);
+
+  backdrop-filter: blur(15px);
+  transition: transform 250ms;
+  transition-timing-function: linear;
+}
+.card:hover{
+    transform: scale(1.09);
+  
+
+}
+
 
 @keyframes hero_murali {
     0%{
@@ -177,4 +195,11 @@ a{
 #contact_us{
     background: black;
     color: white;
+}
+
+@media only screen and (max-width:910px){
+   .card{
+    padding: 20px;
+    font-size: 1.1rem;
+   }
 }
