@@ -17,7 +17,7 @@ id="hero_typing">
             textStyle={{ fontSize:"1.4rem", whiteSpace: 'pre-line',lineHeight:"45px", display: 'block',color:"black" ,fontFamily:"MV Boli",fontWeight:"700" }}
             startDelay={100}
             cursorColor="black"
-            text="Front end developer with 1 year 2 months experience building websites ,web app, CRM using React js and html,css, javascript, bootstrap, material ui, git etc. Key achievement : Creating 5+ websites, 3+ web apps with responsive UI all devices and backend developers to execute new fetaures and create API endpoint’s req/res payloads."
+            text="Front end developer with 1 year 2 months experience building websites ,Web app, CRM using React js and html,css, javascript, bootstrap, material ui, git etc. Key achievement : Creating 5+ websites, 3+ web apps with responsive UI all devices and backend developers to execute new fetaures and create API endpoint’s req/res payloads."
             typeSpeed={50}
           />
   </div>

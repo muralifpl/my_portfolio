@@ -23,8 +23,8 @@ a{
 }
 
 #hero_img{
-   border-radius: 43% 4%;
-   filter: brightness(90%);
+    border-radius: 43% 4%;
+    filter: brightness(90%);
     animation: hero_murali 2s infinite linear;
 
     position: relative;
@@ -129,7 +129,7 @@ a{
     height: 170px;
     overflow: hidden;
     margin-top: -100px;
-  border-radius: 200% 0%;
+    border-radius: 200% 0%;
 
     transform: rotate(20deg);
      /* width: 120%; */
