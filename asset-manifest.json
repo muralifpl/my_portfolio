@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.3e98a3e8.css",
-    "main.js": "/my_portfolio/static/js/main.ad8945e7.js",
+    "main.js": "/my_portfolio/static/js/main.79422991.js",
     "static/js/787.5595067d.chunk.js": "/my_portfolio/static/js/787.5595067d.chunk.js",
     "static/media/contact_us.png": "/my_portfolio/static/media/contact_us.805e228d6081f82fee1c.png",
     "static/media/Murali_resume01.PDF": "/my_portfolio/static/media/Murali_resume01.dede3e79c5b7d83167ed.PDF",
@@ -23,11 +23,11 @@
     "static/media/css.png": "/my_portfolio/static/media/css.c7a290386f78566034d6.png",
     "index.html": "/my_portfolio/index.html",
     "main.3e98a3e8.css.map": "/my_portfolio/static/css/main.3e98a3e8.css.map",
-    "main.ad8945e7.js.map": "/my_portfolio/static/js/main.ad8945e7.js.map",
+    "main.79422991.js.map": "/my_portfolio/static/js/main.79422991.js.map",
     "787.5595067d.chunk.js.map": "/my_portfolio/static/js/787.5595067d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e98a3e8.css",
-    "static/js/main.ad8945e7.js"
+    "static/js/main.79422991.js"
   ]
 }
