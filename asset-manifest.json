@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.3e98a3e8.css",
-    "main.js": "/my_portfolio/static/js/main.79422991.js",
+    "main.js": "/my_portfolio/static/js/main.f28abb02.js",
     "static/js/787.5595067d.chunk.js": "/my_portfolio/static/js/787.5595067d.chunk.js",
+    "static/media/Murali-resume-0.pdf": "/my_portfolio/static/media/Murali-resume-0.313bb55c3f1a87e69a31.pdf",
     "static/media/contact_us.png": "/my_portfolio/static/media/contact_us.805e228d6081f82fee1c.png",
-    "static/media/Murali_resume01.PDF": "/my_portfolio/static/media/Murali_resume01.dede3e79c5b7d83167ed.PDF",
     "static/media/hero_img.png": "/my_portfolio/static/media/hero_img.b5104e2af2631c44111f.png",
     "static/media/Project.png": "/my_portfolio/static/media/Project.655bde30c29bdccadd0a.png",
     "static/media/click.mp3": "/my_portfolio/static/media/click.b6ba29659cf55d571cc0.mp3",
@@ -23,11 +23,11 @@
     "static/media/css.png": "/my_portfolio/static/media/css.c7a290386f78566034d6.png",
     "index.html": "/my_portfolio/index.html",
     "main.3e98a3e8.css.map": "/my_portfolio/static/css/main.3e98a3e8.css.map",
-    "main.79422991.js.map": "/my_portfolio/static/js/main.79422991.js.map",
+    "main.f28abb02.js.map": "/my_portfolio/static/js/main.f28abb02.js.map",
     "787.5595067d.chunk.js.map": "/my_portfolio/static/js/787.5595067d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3e98a3e8.css",
-    "static/js/main.79422991.js"
+    "static/js/main.f28abb02.js"
   ]
 }
