@@ -28,7 +28,7 @@ id="hero_typing">
     <img src={hero_img} id="hero_img" className='mx-auto d-block' width={280} alt="" ></img>
     </div>
    
-    <div id='back_curve_hero'>  
+    <div id='back_curve_hero'>   
 
     </div>
 </div>

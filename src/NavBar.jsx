@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AiOutlineMenuUnfold,AiFillCaretUp } from "react-icons/ai";
-import myResume from '../src/files/Murali_resume01.PDF';
+import myResume from '../src/files/Murali-resume-0.pdf';
 import downAudio from '../src/files/click.mp3'
 import menuAudio from '../src/files/menu_click.mp3'
 import menuToggle from '../src/files/toggle_click.mp3'
